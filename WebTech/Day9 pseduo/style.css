@@ -1,0 +1,40 @@
+body{
+    font-size: 100px;
+}
+
+
+a:link{
+    color: aqua;
+}
+
+
+a:visited{
+    color: rgb(23, 224, 23);
+}
+
+
+a:hover{
+    color: blue;
+}
+
+
+a:active{
+     color: orange;
+}
+
+
+P{
+    font-size: 70px;
+    color: red;
+    text-align: center;
+    /* text-align: left;
+    text-align:right;
+    text-transform: capitalize;
+    text-transform: Uppercase; */
+    text-shadow: 5px 3px 3px yellow;
+    text-decoration:underline line-through overline;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-indent: 10px;
+}
+

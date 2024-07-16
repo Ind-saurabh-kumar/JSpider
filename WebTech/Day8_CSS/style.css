@@ -1,0 +1,83 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0
+}
+
+
+h2{
+    background-color: brown;
+    color: aqua;
+    font-size: 50px;
+}
+
+#types{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: blanchedalmond;
+    color: brown;
+}
+
+.cls{
+
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(203, 144, 55);
+    color: rgb(178, 103, 103);
+}
+
+
+section, h4, h3{
+
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(171, 151, 121);
+    color: rgb(178, 103, 103);
+
+}
+
+
+p::first-letter{
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+
+p::first-line{
+    color:blueviolet;
+}
+
+p::before{
+    content: "Saurabh";
+    font-size: 100px;
+    color: Yellow;
+    background-color: black;
+}
+
+
+p::after{
+    content: "Kumar";
+    color: black;
+    background-color: yellow;
+    font-size: 100px;
+}
+
+p::selection{
+    color: blue;
+    background-color: brown;
+}
+
+::marker{
+   
+    font-size: 70px;
+    color: Red;
+    text-align: center; 
+} 
+
+
+
+
+
