@@ -16,7 +16,7 @@ class TestFinally:
             print(c)
             
         except ZeroDivisionError:
-            print("Denomnator should not be equal to 0")
+            print("Denominator should not be equal to 0")
             
         finally:
             print("**********Does not matter what ever executed***")
@@ -24,4 +24,4 @@ class TestFinally:
 
 
 t=TestFinally()
-t.displayFinallyClause(10, 0)  
+t.displayFinallyClause(10, 0)

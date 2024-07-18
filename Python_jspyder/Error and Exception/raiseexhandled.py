@@ -30,4 +30,9 @@ class CheckAge:
 
 
 c=CheckAge()
-c.validAge(15)
+
+try:
+    c.validAge(15)
+
+except InvalidAgeException:
+    print("Exception, Occured")
