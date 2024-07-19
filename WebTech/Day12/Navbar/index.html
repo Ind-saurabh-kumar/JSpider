@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -15,24 +16,59 @@
 
             <div id="items">
                 <ul>
-                    <li><a href=#" >Home</a></li>
-                    <li><a href=#">Services</a></li>
-                    <li><a href=#">AboutUs</a></li>
-                    <li><a href=#">Career</a></li>
-                    <li><a href=#">ContactUs</a></li>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#services">Services <i class="arrow down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Service 1</a></li>
+                            <li><a href="#">Service 2</a></li>
+                            <li><a href="#">Service 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about">AboutUs</a></li>
+                    <li><a href="#career">Career</a></li>
+                    <li><a href="#contact">ContactUs</a></li>
                 </ul>
             </div>
 
         </div>
     </nav>
 
-    <div id="content">
+    <div id="home">
 
+        <h1>HOME</h1>
+
+    </div>
+
+    <div id="services">
+
+        <h1>Services</h1>
+        
     </div>
 
     <div id="about">
+
+        <h1>About</h1>
         
     </div>
+
+    <div id="career">
+
+        <h1>Career</h1>
+        
+    </div>
+
+
+    <div id="contact">
+
+        <h1>ContactUs</h1>
+        
+    </div>
+
+
+    <footer>
+        <h1>Footer</h1>
+    </footer>
     
 </body>
 </html>
