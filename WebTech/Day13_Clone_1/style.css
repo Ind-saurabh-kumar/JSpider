@@ -1,0 +1,585 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* *********** font family starts ************************ */
+
+
+/* *********** font family Ends ************************** */
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+nav{
+    background-image: url("./images/background/bg01.jpg");
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container{
+    /* background-color: aliceblue;
+    border: 2px solid black; */
+    height: inherit;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logo{
+    /* background-color: brown;
+    border: 2px solid white; */
+    height: inherit;
+    width:20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#logo a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#logo a:hover{
+    color: rgb(212, 197, 26);
+}
+
+#navItems{
+    /* background-color: chocolate;
+    border:2px solid white; */
+    height: inherit;
+    width: 65%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+
+#navItems ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+
+}
+
+#navItems ul li{
+    list-style: none;
+
+}
+
+#navItems ul li a{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+
+
+#navItems ul li a:hover{
+    color:rgb(232, 226, 146);
+}
+
+
+/* ************** NavBar End ******** */
+
+/* ************** First Section Start ******** */
+
+
+#firstSection{
+    height: 300px;
+    width: 100%;
+    border-top: 1px solid #222628;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/background/bg01.jpg");
+}
+
+#firstCont{
+    height: 200px;
+    width: 80%;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.carddesc{
+    height: 220px;
+    width:48%;
+    /* border: 2px solid rgb(212, 197, 26); */
+    
+
+}
+
+.carddesc h1{
+    margin-top: 0px;
+    color: white;
+    font-size: 30px;
+
+    
+
+}
+
+.carddesc button{
+    height: 60px;
+    width:40%;
+    color: white;
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: red;
+}
+
+.carddesc button:hover{
+    background-color: rgb(187, 55, 55);
+    font-size: 26px;
+    color: yellow;
+    cursor: pointer;
+}
+
+
+.cardimg{
+    height: 220px;
+    width:48%;
+    background: #fff url(./images/background/bg04.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+
+/* ************** First Section End ******** */
+
+
+
+
+/* ******************* Second Section Start *********/
+
+
+#secondSection{
+    height: 400px;
+    width: 100%;
+    border-top: 1px solid #222628;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/background/bg02.jpg");
+
+}
+
+#secondCont{
+    height: 300px;
+    width: 80%;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+
+}
+
+/* ************* Card Css ******************** */
+.cardSec{
+    height: 300px;
+    width:25%;
+    /* border: 2px solid rgb(212, 197, 26);
+    background-color: aliceblue; */
+}
+
+#cardSecimg{
+    height: 120px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background: #fff url(./images/background/bg04.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#csi{
+    /* border: 2px solid red; */
+    height: 90%;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#csi img{
+    height:100%;
+    width: 100%;
+
+}
+
+
+#cardSecCont{
+    height: 100%;
+    width: 100%;
+    
+}
+#cardSecCont h1{
+    color: rgb(239, 236, 236);
+    font-size: 20px;
+    margin:20px 25px 25px 0px;
+}
+
+#cardSecCont p{
+    color: rgb(148, 144, 144);
+    font-size: 15px;
+    line-height: 25px;
+    text-justify:distribute-all-lines;
+}
+
+#cardSecCont p a{
+    color: rgb(226, 232, 51);
+}
+
+#cardSecCont p name{
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+
+/* ******************* Third Section CSS starts here *************************** */
+
+
+#thirdSec{
+    height: 600px;
+    width: 100%;
+    background: #FFFF url("./images/background/bg04.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#thirdSecCont{
+    height: 85%;
+    width: 80%;
+    /* border: 2px solid red; */
+    
+    display: flex;
+    align-items: center;
+    gap:40px
+}
+
+#thirdCard{
+    height: 100%;
+    width: 32%;
+    /* border: 2px solid yellow; */
+    box-shadow: 0.5px 0.5px 7px rgb(160, 159, 159);
+    background-color: white;
+    padding: 40px 30px;
+    
+
+}
+
+#tchead{
+    height: 25%;
+    width: 100%;
+    /* border: 2px solid rgb(244, 238, 238); */
+    
+}
+
+#tchead h1{
+    font-size: 30px;
+    font-weight:normal;
+    color: rgb(13, 12, 12);
+    margin-bottom: 15px;
+}
+
+#tchead p{
+    font-size: 20px;
+    color: rgb(35, 33, 33);
+}
+
+
+#tcimg{
+    height: 30%;
+    width: 100%;
+    margin-top: 15px;
+    /* border: 2px solid white; */
+
+}
+#tcimg img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#tcbody{
+    height: 35%;
+    width: 100%;
+    /* border: 2px solid white; */
+    margin-top: 40px;
+}
+
+
+#tcbody p{
+    font-size: 18px;
+    color: rgb(61, 57, 57);
+}
+
+
+
+#tctable{
+    height: 80%;
+    width: 100%;
+    font-size: 18px;
+    line-height: 60px;
+    
+
+
+}
+
+#tctable ul{
+    list-style: None;
+}
+
+#tctable ul li{
+    padding: 0px 0px 0px 50px;
+    border-bottom: 1px solid rgba(164, 159, 159, 0.495);
+    background: url(./images/background/icon-checkmark.png) 0px 20px no-repeat;
+}
+
+
+
+
+#tc3body{
+    display:flex;
+    align-items: center;
+    
+
+}
+
+#tc3body ul li{
+    list-style: none;
+    margin:10px 0 15px 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(139, 132, 132, 0.505);
+}
+
+
+#tc3body ul li img{
+    height: 70px;
+    width: 70px;
+    /* border: 2px solid red; */
+    position:absolute;
+}
+
+#tc3body ul li p{
+    font-size: 15px;
+    height: 20px;
+    font-style: italic;
+    margin: 0px 0px 20px 85px;
+}
+
+#tc3body ul li span{
+    font-size: 15px;
+    padding-left: 80px;
+    font-weight: bold;
+}
+
+
+/* *********** fourth Section Starts ************** */
+
+#fourthSec{
+    height: 400px;
+    width: 100%;
+    background:#859aa3 url(./images/background/bg02.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#forthCont{
+    height: 80%;
+    width: 80%;
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#linkscont{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid rgb(33, 33, 28); */
+    
+   
+}
+
+#linkscont h2{
+    font-size: 35px;
+    color: white;
+}
+#links{
+
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    
+
+}
+
+#col{
+    height: 100%;
+    width: 70%;
+    font-size: 20px;
+    color: white;
+    /* border: 2px solid red;  */
+    display: flex;
+    justify-content: start;
+}
+
+#col ul li{
+    list-style:none;
+    line-height: 60px;
+    border-bottom: 1px solid rgba(139, 132, 132, 0.505);
+}
+
+#col ul li a{
+    color: white;
+    font-size: 25px;
+}
+
+#col ul li a:hover{
+    color: rgb(185, 71, 71);
+    text-decoration: none;
+}
+
+
+
+
+
+#desc{
+    height: 100%;
+    width: 35%;
+    /* border: 2px solid rgb(12, 188, 223); */
+}
+
+#desc h2{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#desc p{
+    font-size:20px;
+    color:white;
+}
+
+
+
+footer{
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid #222628;
+    background: #ffff url(./images/background/bg02.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#footerCont{
+    height: inherit;
+    width: 80%;
+    padding: 20px;
+}
+
+
+#footerCont h3{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+#footerCont h3:hover{
+    color: rgb(12, 40, 180);
+    font-size: 20px;
+    text-align: center;
+}
+
+#footerCont p{
+    color: rgb(222, 222, 212);
+    text-align: center;
+}
+
+#footerCont p a{
+    color: rgb(206, 216, 24);
+}
+
+#footerCont p a:hover{
+    color: rgb(216, 146, 24);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *********** fourth Section ends ************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
