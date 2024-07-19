@@ -121,7 +121,7 @@ nav{
 }
 
 .card h1{
-    
+
 }
 
 
@@ -137,4 +137,41 @@ button{
 
 
 /* ************** First Section End ******** */
+
+
+
+
+/* ******************* Second Section Start *********/
+
+
+#secondSection{
+    height: 350px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 59, 59);
+
+}
+
+#secondCont{
+    height: 300px;
+    width: 85%;
+    border: 2px solid greenyellow;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+
+}
+
+
+.card1{
+    height: 300px;
+    width:25%;
+    border: 2px solid rgb(212, 197, 26);
+    background-color: aliceblue;
+ 
+}
 
