@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: rgb(68, 81, 77);
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(214, 190, 190);
+
+}
+
+#container{
+    /* background-color: aliceblue;
+    border: 2px solid black; */
+    height: inherit;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logo{
+    /* background-color: brown;
+    border: 2px solid white; */
+    height: inherit;
+    width:20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#logo a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#logo a:hover{
+    color: rgb(212, 197, 26);
+}
+
+#navItems{
+    /* background-color: chocolate;
+    border:2px solid white; */
+    height: inherit;
+    width: 65%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+
+#navItems ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+
+}
+
+#navItems ul li{
+    list-style: none;
+
+}
+
+#navItems ul li a{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+
+
+#navItems ul li a:hover{
+    color:rgb(232, 226, 146);
+}
+
+
+/* ************** NavBar End ******** */
+
+/* ************** First Section Start ******** */
+
+
+#firstSection{
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 59, 59);
+
+}
+
+#firstCont{
+    height: 200px;
+    width: 85%;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.card{
+    height: 180px;
+    width:40%;
+    border: 2px solid rgb(212, 197, 26);
+    background-color: aliceblue;
+ 
+}
+
+.card h1{
+    
+}
+
+
+button{
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    border-radius: 5px;
+
+}
+
+
+
+
+/* ************** First Section End ******** */
+
