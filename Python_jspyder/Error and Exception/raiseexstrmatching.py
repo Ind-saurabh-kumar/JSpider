@@ -20,6 +20,8 @@ class StringMissMatching(BaseException):
 class StrMatch:
     
     def strm(self,a,b):
+        a=a.lower()
+        b=b.lower()
         if a!=b:
             raise StringMissMatching()
         else:
@@ -27,7 +29,7 @@ class StrMatch:
     
     
 s=StrMatch()
-s.strm("Apple", "Appl")
+s.strm("Apple1", "apple4")
 
   
                             
