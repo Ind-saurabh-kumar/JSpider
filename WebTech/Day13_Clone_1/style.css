@@ -310,7 +310,7 @@ nav{
 }
 
 #tchead p{
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(35, 33, 33);
 }
 
@@ -434,7 +434,7 @@ nav{
 }
 
 #linkscont h2{
-    font-size: 35px;
+    font-size: 30px;
     color: white;
 }
 #links{
@@ -453,7 +453,7 @@ nav{
 #col{
     height: 100%;
     width: 70%;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     /* border: 2px solid red;  */
     display: flex;
@@ -468,7 +468,7 @@ nav{
 
 #col ul li a{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #col ul li a:hover{
@@ -496,8 +496,6 @@ nav{
     font-size:20px;
     color:white;
 }
-
-
 
 footer{
     height: 100px;
@@ -540,20 +538,6 @@ footer{
 #footerCont p a:hover{
     color: rgb(216, 146, 24);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* *********** fourth Section ends ************** */
