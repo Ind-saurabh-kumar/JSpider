@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: #f7f7f7;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footCont{
+    height: 350px;
+    width: 85%;
+    /* border: 2px solid black; */
+    /* background-color: rgb(93, 122, 106); */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footCard{
+    height: inherit;
+    width: 37%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:column;
+}
+
+.card1Cont{
+    height: 60%;
+    width:70%;
+    /* border: 2px solid #0f2d61; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:14px;
+    
+}
+
+.footCardHead{
+    height: 70Px;
+    width:100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 35px;
+    
+}
+
+#footCard1Body{
+    height: 190Px;
+    width:100%;
+    /* border: 2px solid rgb(196, 209, 19); */
+    font-size: 17px;
+    font-weight: lighter;  
+    
+    
+}
+#footCard1Body p{
+    padding-bottom: 20px;
+}
+
+
+.footCardHead img{
+    height: 40px;
+    width: 150px;
+
+}
+
+
+
+.footCardHead h1{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #0f2d61;
+
+}
+
+
+.card2Cont{
+    height: 95%;
+    width:80%;
+    /* border: 2px solid #0f2d61; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+    
+}
+
+.card3Cont{
+    height: 95%;
+    width:80%;
+    /* border: 2px solid #0f2d61; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+
+
+#footCard2Body{
+    height: 190Px;
+    width:100%;
+    /* border: 2px solid rgb(196, 209, 19); */
+    font-size: 17px;
+    font-weight: lighter;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#footCard2Body p{
+    padding-bottom: 30px;
+  
+}
+
+.footInp{
+    width: 100%;
+    border: 2px solid rgba(105, 102, 102, 0.66);
+    height:65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#inp{
+    height:80%;
+    width: 75%;
+    margin-left: 20px;
+    background-color:transparent;
+    color: #747070;
+    border:none;
+    border: 0px solid transparent;
+    font-size: 15px;
+}:focus{
+    border: 0px solid transparent;
+}
+
+
+
+
+
+#footBtn{
+    height: 45px;
+    width:45px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #ff663b;
+    color:rgb(253, 252, 252);
+    border: none;
+    border-radius: 5px;
+    
+}
+
+#footBtn:hover{
+    transition:all;
+    transition-delay: 1sec;
+    background-color: rgb(205, 205, 60);
+
+}
+
+
+#footBtn:hover{
+    cursor: pointer;
+    transition: all;
+    transition:linear;
+    transition-duration: 0.5ms;
+}
+
+.footIcons{
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.footIcons i{
+    margin-right:20px;
+    color: #747070;
+
+}
+
+.footIcons i:hover{
+    cursor: pointer;
+}
+
+.card3Cont p{
+    padding-bottom: 20px;
+}
+
+
+strong{
+    color: #0f2d61;
+}
+
+
+
+
+
+
+
