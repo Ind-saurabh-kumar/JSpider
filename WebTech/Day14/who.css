@@ -8,6 +8,12 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.bodydiv{
+    height: 400px;
+    width: 100%;
+    background-color: #0a337e;
+}
+
 footer{
     height: 350px;
     width: 100%;
