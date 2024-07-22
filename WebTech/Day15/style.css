@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+
+}
+
+.footCont{
+    height: inherit;
+    width: 90%;
+    /* border: 2px solid rgb(24, 186, 240); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+.cardCont{
+    height: inherit;
+    width:100%;
+    /* border:2px solid rgb(228, 51, 216); */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 40px;
+}
+
+.rightCard1{
+    height:85%;
+    width:40%;
+    padding-left: 70px;
+    padding-right: 50px;
+    /* border:2px solid rgb(40, 36, 36); */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+   
+}
+
+.card1Head{
+    display: flex;
+    height:80px;
+    width: 100%;
+    align-items:center;
+    justify-content: start;
+    gap:10px;
+    /* border: 2px solid green; */
+
+}
+
+.card1Head i{
+    font-size: 30px;
+    color: white;
+
+}
+.card1Head h1 a{
+    font-size:35px;
+    color: white;
+    text-decoration: none;
+}
+
+.card1Body{
+    display: flex;
+    height:80px;
+    width: 100%;
+    /* border:2px solid red; */
+    align-items:start;
+    justify-content: start;
+    gap:10px;
+
+}
+.card1Body p{
+    font-size: 20px;
+    color: white;
+}
+
+.card1Icons{
+    height:80px;
+    width: 100%;
+    /* border:2px solid rgb(215, 192, 192); */
+}
+
+.card1IconCir{
+  display:flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card1IconCir i{
+    background-color: antiquewhite;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: rgb(24, 23, 23);
+}
+.card1IconCir i:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+
+
+
+.rightCard{
+    height:85%;
+    width:20%;
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+   
+}
+
+.cardHead{
+    display: flex;
+    height:80px;
+    width: 100%;
+    
+    align-items:center;
+    justify-content: start;
+    gap:10px;
+    /* border: 2px solid green; */
+}
+
+.cardHead h1 a{
+
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.cardHead h1{
+
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.cardBody{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* border: 2px solid black; */
+}
+
+
+
+
+
+.cardBody ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    list-style: none;
+}
+
+
+.cardBody ul li a{
+
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.cardBody ul li a:hover{
+    text-decoration: underline ;
+}
+
+
+
+
+
+
+
