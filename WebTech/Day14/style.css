@@ -5,6 +5,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+
 footer{
     height: 400px;
     width: 100%;
@@ -18,7 +20,7 @@ footer{
 
 
 .footCont{
-    height: 350px;
+    height: 300px;
     width: 85%;
     /* border: 2px solid black; */
     /* background-color: rgb(93, 122, 106); */
@@ -151,7 +153,8 @@ footer{
     border: 0px solid transparent;
     font-size: 15px;
 }:focus{
-    border: 0px solid transparent;
+    outline: none;
+    border: none;
 }
 
 
@@ -169,6 +172,24 @@ footer{
     border-radius: 5px;
     
 }
+
+#footBtn::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 4px;
+    background-color: #ff0000; /* Change the color as needed */
+    transition: width 0.3s ease-out;
+  }
+  
+  /* On hover, animate the line from right to left */
+  #footBtn:hover::after {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
 
 #footBtn:hover{
     transition:all;

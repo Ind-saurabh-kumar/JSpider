@@ -8,16 +8,16 @@ Created on Sun Jul 21 21:03:37 2024
 class FileHandling:
     
     def writeRead(self):
-        file=None
+        
         try:
             file=open('new.txt','a+') 
             
             file.write("Saurab hKumar from jspider")
             
-            file.seek(0)
+            file.seek(0) # Its move the courser from end to start for reading the data.
              
             data=file.read()
-            print(data)
+            print(data) 
         
         except FileNotFoundError:
             print("File not exist.....")

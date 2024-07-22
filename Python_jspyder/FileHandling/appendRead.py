@@ -7,8 +7,8 @@ Created on Sun Jul 21 21:03:37 2024
 
 class FileHandling:
     
-    def writeRead(self):
-        file=None
+    def appendRead(self):
+        
         try:
             file=open('new.txt','a+') 
             
@@ -33,7 +33,7 @@ class FileHandling:
                 pass
 
 f=FileHandling()
-f.writeRead()
+f.appendRead()
         
         
          

@@ -1,27 +1,27 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jul 21 21:03:37 2024
+Created on Mon Jul 22 09:16:27 2024
 
 @author: saura
 """
 
+
 class FileHandling:
     
-    def writeRead(self):
+    def readFile(self):
+        
         file=None
+        
         try:
-            file=open('new.txt','a+') 
+            file=open('his.txt', 'r' )
             
-            file.write("Saurab hKumar from jspider")
+            d=file.read()
+            print(d)
             
-            file.seek(0)
-             
-            data=file.read()
-            print(data)
+
         
         except FileNotFoundError:
-            print("File not exist.....")
-        
+            print("file does not exist..")
         
         finally:
             try:
@@ -31,9 +31,10 @@ class FileHandling:
             
             except FileNotFoundError:
                 pass
+        
+    
+            
+        
 
 f=FileHandling()
-f.writeRead()
-        
-        
-         
+f.readFile()
