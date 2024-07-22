@@ -107,6 +107,7 @@ footer{
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    box-shadow: 2px 3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,7 +118,12 @@ footer{
 .card1IconCir i:hover{
     background-color: aqua;
     cursor: pointer;
-    transform: scale(1);
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in-out ;
+    transition-delay: 0.2ms;
+    box-shadow: -2px -3px;
+
   
 }
 
