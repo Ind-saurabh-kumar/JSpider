@@ -167,45 +167,31 @@ footer{
     width:45px;
     font-size: 25px;
     font-weight: bold;
-    background-color: #ff663b;
+    background-image: linear-gradient(to left, #ee390f 0%, #ee390f 51%, #f9b700 100%);
     color:rgb(253, 252, 252);
     border: none;
     border-radius: 5px;
+    /* transition: all;
+    transition-delay: 0.4s;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transition-behavior: normal; */
+
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+    
+    
     
 }
 
-#footBtn::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 0;
-    height: 4px;
-    background-color: #ff0000; /* Change the color as needed */
-    transition: width 0.3s ease-out;
-  }
-  
-  /* On hover, animate the line from right to left */
-  #footBtn:hover::after {
-    left: 0;
-    right: auto;
-    width: 100%;
-  }
-
 #footBtn:hover{
-    transition:all;
-    transition-delay: 1sec;
-    background-color: rgb(205, 205, 60);
-
-}
-
-
-#footBtn:hover{
+    
+    background-image: linear-gradient(to left, #f9b700 0%, #ee390f 51%, #ee390f 100%);
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition-property:all ;
     cursor: pointer;
-    transition: all;
-    transition:linear;
-    transition-duration: 0.5ms;
-}
+  }
+
 
 .footIcons{
     height: 50px;
