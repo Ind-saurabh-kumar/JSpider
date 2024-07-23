@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+.bodydiv{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(181, 152, 209);
+}
+
 footer{
     height: 400px;
     width: 100%;
@@ -170,10 +176,10 @@ footer{
 }
 
 .cardBody{
-    width: fit-content;
+    width:100% ;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content:start;
     /* border: 2px solid black; */
 }
 
@@ -183,8 +189,8 @@ footer{
 
 .cardBody ul{
     display: flex;
-    justify-content:center;
-    align-items: center;
+    justify-content:start;
+    align-items: start;
     flex-direction: column;
     gap:20px;
     list-style: none;
