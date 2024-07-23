@@ -22,9 +22,15 @@ class ForLoop:
         for n in name:
             print(n)
             
+    def forRangeLp(self):
+        
+        for j in range(1, 10, 2):
+            print(j)
+            
             
 
 f=ForLoop()
 f.forintLp()
 
 f.forstrLp()
+f.forRangeLp()
