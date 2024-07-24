@@ -5,16 +5,153 @@
 }
 
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+
+
 
 
 /* ****************** Head nav css Strts ***************** */
 .headNav{
     width: 100%;
     height:50px;
-    border:2px solid red;
+    /* border:2px solid red; */
+    background-color: #274375;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navheadCont{
+    height: inherit;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: 5px solid brown;
+}
+
+.leftCont{
+    height: inherit;
+    width:15%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.global{
+    height: inherit;
+    width: 40%;
+    /* border: 2px solid gray; */
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.global a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+.global:hover{
     background-color: blue;
+    height: inherit;
+}
+
+.region{
+    height: inherit;
+    width: 60%;
+    /* border: 2px solid gray; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.region a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+.region:hover{
+    background-color: blue;
+    height: inherit;
+}
+
+
+
+.region i{
+
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 8px;
+    
+    
+    
+}
+
+.rightCont{
+    height: inherit;
+    width:25%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    height: inherit;
+    width: 20%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search:hover{
+    background-color: blue;
+    height: inherit;
+}
+
+.search i{
+    color: white;
+    font-size: 20px;
+}
+
+.language{
+    height: inherit;
+    width: 75%;
+    /* border:2px solid gray; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.language:hover{
+    background-color: blue;
+    height: inherit;
+}
+
+.language i{
+    padding-right: 20px;
+    font-size: 25px;
+    padding-top:5px;
+    color: white;
+}
+
+.language a{
+    font-size: 20px;
+    padding-left:5px;
+    text-decoration: none;
+    color: white;
+
 }
 /* ****************** Head nav css Ends ***************** */
 
@@ -22,8 +159,27 @@ body{
 .navLogo{
     width: 100%;
     height: 120px;
-    border: 2px solid greenyellow;
-    background-color: aqua;
+    /* border: 2px solid greenyellow; */
+    /* background-color: aqua; */
+    padding-left: 35px;
+
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+
+
+.logo{
+    
+    font-size: 80px;
+    width: 220px;
+    fill: rgb(22, 70, 227);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    
+
 }
 
 /* ****************** Head logo css Ends ***************** */
@@ -31,14 +187,333 @@ body{
 /* ****************** navBar css Strts ***************** */
 .navBar{
     width: 100%;
-    height: 60px;
-    border: 2px solid red;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-color: #274375;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navCont{
+    height: inherit;
+    width: 95%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navCont {
+    font-size:25px;
+    list-style: none;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap:40px;
+
+}
+
+.navleftdiv{
+    height: inherit;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item1{
+    height: inherit;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.item1 a i{
+    color: white;
+}
+
+.item1:hover{
     background-color: blue;
+}
+
+.item2 a{
+    font-size:20px;
+    text-decoration: none;
+    color: white;
+}
+
+.item2 a i{
+    padding-top: 9px;
+    padding-left: 5px;
+    color: white;
+}
+
+.item2{
+    height: inherit;
+    width: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+.item2:hover{
+    background-color: blue;
+}
+
+.items{
+    height: inherit;
+    width: 150px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items h3 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+.items:hover{
+    background-color: blue;
+
+}
+
+.items a i{
+    padding-top:9px;
+    padding-left:5px;
+    color: white;
+    
 }
 
 
 /* ****************** navBar css End ***************** */
 
 
+/* ****************** BodyImg css Starts ***************** */
+
+.bodyImg{
+    height: 650px;
+    width: 100%;
+    background-image: url(./images/img/children-playing-in-the-water.tmb-1920v_1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.mainHeading{
+    font-size: 40px;
+    background-color: rgb(27, 27, 108);
+    padding: 10px;
+    color: white;
+}
+
+.mainSubHeading{
+    font-size: 20px;
+    background-color: rgb(25, 25, 91);
+    padding: 5px;
+    color: white;
+}
+
+.cornerTxt{
+    height: 30px;
+    width: 100%;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 0px;
+
+}
+
+.cornerTxt div{
+    height: inherit;
+    width: 13%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(23, 23, 112);
+}
+
+.cornerTxt div a{
+
+    text-decoration:none;
+    line-height: 10px;
+    letter-spacing: 1px;
+    color: white;
+    
+}
+.cornerTxt div i{
+    color:white;
+}
+
+/* ****************** BodyImg css End ***************** */
+
+
+
+
+/* ****************** BodyCards1 css Starts ***************** */
+
+.bodyCards1{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyCard1Cont{
+    height: 500px;
+    width: 95%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bodyCard1Heading{
+    height: 60px;
+    width: 100%;
+    border-bottom: 2px solid rgb(112, 112, 111);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.leftData{
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.rightData{
+    padding-top: 5px;
+}
+
+.rightData a i{
+   
+}
+
+.rightData a{
+    font-size: 30px;
+    color: rgb(24, 28, 43);
+    text-decoration: none;
+}
+
+
+.bodyCard1body{
+    height: 100%;
+    width: 98%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card1Body{
+    height: 97%;
+    width: 23%;
+    background-color: rgba(238, 238, 238, 0.772);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card1Body:hover{
+    border: 2px solid blue;
+    background-color:rgba(225, 223, 223, 0.911) ;
+
+}
+
+.cardImg{
+    height: 55%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.cardImg img{
+    height: 100%;
+    width: 100%;
+   
+}
+
+.cardTxt{
+    height:45%;
+    width:100%;
+    /* border:2px solid black; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    
+
+}
+
+.cardTxt p{
+    font-size: 15px;
+    color: rgb(118, 119, 120);
+    font-weight: lighter;
+    padding: 15px 10px 10px 10px;
+}
+
+.cardTxt h4{
+    font-size:17px;
+    padding:10px;
+}
+
+
+
+
+
+
+/* ****************** BodyCards1 css End ***************** */
+
+
+
+
+/* ****************** BodyCards2 css Starts ***************** */
+.bodyCards2{
+    height: 600px;
+    width: 100%;
+    border: 2px solid red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* ****************** BodyCards2 css End ***************** */
 
 
