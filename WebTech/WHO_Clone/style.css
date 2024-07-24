@@ -493,19 +493,25 @@ body{
 
 /* ****************** BodyCards1 css End ***************** */
 
+.bodyCard2body{
+    height: 97%;
+    width: 23%;
+    background-color: rgba(238, 238, 238, 0.772);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card2Body:hover{
+    border: 2px solid blue;
+    background-color:rgba(225, 223, 223, 0.911) ;
 
+}
 
 
 /* ****************** BodyCards2 css Starts ***************** */
-.bodyCards2{
-    height: 600px;
-    width: 100%;
-    border: 2px solid red;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 
 
@@ -515,5 +521,282 @@ body{
 
 
 /* ****************** BodyCards2 css End ***************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************************  Footer Starts Here **************************** */
+
+
+
+footer{
+    height: 350px;
+    width: 100%;
+    /* border: 3px solid red; */
+    background-color: #0c2b64;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.footCont{
+    height: 300px;
+    width: 90%;
+    margin-top:70px;
+    /* border:2px solid rgb(14, 13, 13); */
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.cards{
+    height: inherit;
+    width: 20%;
+    /* border:2px solid yellow; */
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap:25px;
+}
+
+
+.cardHead h1 a{
+
+    font-size: 35px;
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+.cardHead h1 a:hover{
+    background-color: rgb(26, 26, 192);
+
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+    transition-duration:0.5s;
+    
+}
+
+
+
+.cardBody ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap:16px;
+    list-style: none;
+
+}
+
+.cardBody ul li a{
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+    padding:5px
+}
+
+.cardBody ul li a:hover{
+    background-color: rgb(26, 26, 186);
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+    transition-duration:0.5s;
+    
+}
+
+
+.contactBtn{
+    height: 40px;
+    width:220px;
+    color:white; 
+    background-color: #2a4577;
+    border-radius: 5px;  
+    
+}
+
+.contactBtn:hover{
+    cursor: pointer;
+    border:3px solid rgb(17, 17, 173);
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.contactBtn h3{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+/* ************ Logo footer starts ******************* */
+
+
+.footLogo{
+    height: 130px;
+    width:100%;
+    /* border: 2px solid red; */
+    background-color: #0c2b64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footLogoSVG{
+    height: inherit;
+    width:20%;
+    /* border:2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.footLogoSVG svg{
+    fill: white;
+    padding:5px;
+}
+
+.footLogoSVG svg:hover{
+    background-color: blue;
+
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+    transition-duration:0.5s;
+}
+
+
+
+/* ****** foot last ***************** */
+
+.footLast{
+    height: 90px;
+    width:100%;
+    /* border: 2px solid red; */
+    background-color: #0a337e;
+
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.footLastLeft{
+    height: inherit;
+    margin-left:40px;
+    width:10%;
+    /* border: 2px solid rgb(23, 11, 11); */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footLastLeft h2 a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding:5px;
+}
+
+.footLastLeft h2 a:hover{
+    background-color: blue;
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+    transition-duration:0.5s;
+}
+
+
+.footLastCenter{
+    height: inherit;
+    width:50%;
+    /* border: 2px solid rgb(32, 25, 25); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.footLastCenter i{
+    font-size: 25px;
+    color: white;
+    padding:5px;
+}
+
+.footLastCenter i:hover{
+
+    background-color: blue;
+
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+    transition-duration:0.5s;
+
+}
+
+
+
+
+.footLastEnd{
+    height: inherit;
+    width:10%;
+    margin-right:40px;
+    /* border: 2px solid rgb(18, 14, 14); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footLastEnd h2 {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.footLastEnd h2 a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding:5px;
+}
+
+.footLastEnd h2 a:hover{
+    background-color: blue;
+
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+    transition-duration:0.5s;
+}
+
 
 
