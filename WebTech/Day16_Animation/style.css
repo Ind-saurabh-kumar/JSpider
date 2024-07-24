@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.animation{
+    font-size:400px;
+    animation-name:heart;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+
+}
+
+@keyframes heart {
+
+    from{
+        font-size: 400px;
+    }
+    to{
+        font-size:500px;
+    }
+    
+}

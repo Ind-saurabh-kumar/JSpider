@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.navBar{
+    height: 120px;
+    width: 100%;
+    /* border: 10px solid rgb(217, 30, 30); */
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+
+}
+
+
+.navCont{
+
+    height: 90px;
+    width: 90%;
+    /* border: 5px solid black; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.navLogo{
+
+    height: 70px ;
+
+    width: 20% ;
+
+    /* border: 3px solid rgb(238, 66, 4); */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navLogo img{
+    height: 50px;
+    width: 80px;
+}
+
+.navLogo h1 a{
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.navLogo h1 a:hover{
+    font-size:30px;
+    color: white;
+    text-decoration:line-through ;
+}
+
+.navLogo img:hover{
+    font-size:40px;
+    border:2px solid rgb(83, 44, 29)
+}
+
+
+.navItems{
+
+    height: 70px ;
+
+    width: 70% ;
+
+    /* border: 3px solid rgb(83, 44, 29); */
+
+    display: flex;
+
+    align-items: center;
+    justify-content:space-around;
+
+}
+
+#navSearch{
+    height: 50px;
+    width: 30%;
+    /* border: 2px solid rgb(240, 19, 19); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#navSearch i{
+    font-size: 25px;
+    color: white;
+    margin: 5px;
+    
+}
+
+#navSearch input{
+    height: 40px;
+    width: 90%;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding-left: 15px;
+    font-size: 20px;
+    color: brown;
+}
+
+
+
+.navItems ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:70px;
+
+    
+}
+
+.navItems ul li{
+    list-style: none;
+}
+
+.navItems ul li a{
+    font-size: 30px;
+    color: black;
+
+    text-decoration: none;
+}
+
+
+.navItems ul li a:hover{
+
+    font-size: 35px;
+    color:rgb(214, 29, 29);
+    text-decoration:underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

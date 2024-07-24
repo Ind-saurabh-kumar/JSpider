@@ -1,0 +1,22 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+section{
+    font-size: 300px;
+    background-image: url(./flag.jpeg);
+    background-size: contain;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+
+    
+
+}
