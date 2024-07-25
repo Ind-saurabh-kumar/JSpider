@@ -1,5 +1,5 @@
 
-from Calculations.Add import Add
+from Calculations import Add
    
 class Main:
     
