@@ -493,34 +493,560 @@ body{
 
 /* ****************** BodyCards1 css End ***************** */
 
+
+
+
+/* ****************** BodyCards2 css Starts ***************** */
+
+.bodyCard2{
+
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bodyCard2Cont{
+    height: 500px;
+    width: 95%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.bodyCard2Heading{
+    height: 60px;
+    width: 100%;
+    border-bottom: 2px solid rgb(112, 112, 111);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
 .bodyCard2body{
+
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card2Body{
+
     height: 97%;
     width: 23%;
-    background-color: rgba(238, 238, 238, 0.772);
     border: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
-.card2Body:hover{
+
+.card2BodyHeading{
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: end;
+    justify-content: start;
+}
+.card2BodyHeading h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: Black;
+}
+
+
+.card2BodyTxt{
+
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid rgb(26, 0, 128); */
+    background-color: rgba(225, 226, 227, 0.491);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card2BodyTxt:hover{
+    cursor: pointer;
     border: 2px solid blue;
-    background-color:rgba(225, 223, 223, 0.911) ;
+    background-color: rgb(213, 214, 214);
+    
+}
 
+.card2BodyTxt:hover h5{
+    border: 2px solid rgb(29, 46, 225);
+}
+
+.card2BTxtImg{
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.card2BTxtImg img{
+    height: 100%;
+    width: 100%;
 }
 
 
-/* ****************** BodyCards2 css Starts ***************** */
+.card2BTxtHead{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
-
-
-
-
-
-
+.card2BTxtHead a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
 
 /* ****************** BodyCards2 css End ***************** */
+
+/* ****************** BodyCards3 css Starts ***************** */
+
+.bodyCard3{
+    height: 450px;
+    width: 100%;
+    /* border: 2px solid green; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyCard3Cont{
+    height: 400px;
+    width: 95%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card3Card{
+    height: inherit;
+    width: 32%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card3heading{
+
+    height: 13%;
+    width: 100%;
+    border-bottom: 2px solid rgb(190, 185, 185);
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.card3heading h3{
+    font-size: 30px;
+    color: black;
+    
+}
+
+.card3Body{
+
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    background-color: rgba(189, 190, 191, 0.441);
+
+}
+.card3Body:hover{
+    background-color: rgba(189, 190, 191, 0.829);
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.card3Body:hover h3{
+    border: 2px solid blue;
+}
+
+.card3Img{
+    height: 75%;
+    width: 100%;
+    
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3Img img{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.card3Txt{
+    padding:25px 0px 0px 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.card3Txt a{
+   font-size: 20px;
+   text-decoration: none;
+   color: black;
+
+}
+
+
+
+/* card 4 stats */
+
+
+
+.card4Body{
+
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    background-color: rgba(189, 190, 191, 0.441);
+
+}
+.overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 43%;
+    width: 30.5%;
+    background-color: rgba(208, 40, 40, 0); /* Initially transparent */
+    transition: background-color 0.3s ease;
+}
+
+.card4Body:hover .overlay {
+    background-color: rgba(191, 186, 186, 0.272); /* White overlay on hover */
+}
+
+
+
+
+
+
+/* card 4 ends */
+
+
+
+
+/* section 5 Starts */
+
+.section5{
+    height: 1200px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec5Cont{
+    height: 1150px;
+    width: 95%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.sec5Leftd{
+
+    height: inherit;
+    width: 32%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+.bodyCard5Heading{
+    height:50px;
+    width: 100%;
+    border-bottom: 2px solid rgb(112, 112, 111);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.bodyCard5Heading .leftData{
+    font-size: 30px;
+    padding-bottom: 30px;
+    
+}
+.card5Txt{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 50px;
+}
+.card5Txt a, h3{
+    font-size: 20px;
+    color: Black;
+    text-decoration: none;
+    padding-top:10px;
+    
+}
+
+.bodyCard5Heading .rightData{
+    padding-bottom: 30px;
+    
+}
+
+.bodyCard5Heading h3{
+    font-size: 25px;
+}
+
+.bodyCard5Heading .rightData a{
+    font-size: 25px;
+    color: rgb(24, 28, 43);
+    text-decoration: none;
+}
+
+.card5data{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card5Card{
+    height: 300px;
+    width: 100%;
+}
+
+
+
+
+
+
+.card4Body{
+
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    background-color: rgba(189, 190, 191, 0.441);
+
+}
+.overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 43%;
+    width: 30.5%;
+    background-color: rgba(208, 40, 40, 0); /* Initially transparent */
+    transition: background-color 0.3s ease;
+}
+
+.card4Body:hover .overlay {
+    background-color: rgba(191, 186, 186, 0.272); /* White overlay on hover */
+}
+
+
+
+
+/* section 5 starts */
+
+.card5Card{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid black; */
+    
+    margin-top:20px;
+}
+
+
+
+
+
+.sec5Rightd{
+
+    height: inherit;
+    width: 55%;
+    /* border: 2px solid yellow; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.sec5Rightd .bodyCard6Heading{
+
+    height:50px;
+    width: 100%;
+    border-bottom: 2px solid rgb(112, 112, 111);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.sec5Rightd .leftData{
+    font-size: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.sec5Rightd .rightData{
+    padding-bottom: 30px;
+    
+}
+
+.bodyCard6Heading h3{
+    font-size: 25px;
+}
+
+.sec5Rightd .rightData a{
+    font-size: 25px;
+    color: rgb(24, 28, 43);
+    text-decoration: none;
+}
+
+
+/* card 6 starts */
+
+.events{
+    height: 90%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* background-color: #0a337e; */
+}
+
+.eventCard{
+    height: 19%;
+    width: 100%;
+    /* border: 3px solid green; */
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eventCard:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+
+.eventImg{
+    height: 195px;
+    width: 195px;
+    /* border:2px solid red; */
+}
+
+.eventImg img{
+    height: 100%;
+    width: 100%;
+}
+
+.eventInfo{
+    height: 195px;
+    width:590px;
+    /* border: 2px solid green; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 5px;
+
+    padding-left:20px;
+}
+
+.date{
+    height: 20px;
+    width: 100px;
+    
+}
+
+.data{
+    height: 20px;
+    width:100%;
+    margin-bottom:10px;
+}
+
+.date2{
+    height:20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ****************** BodyCards3 css End ***************** */
+
 
 
 
@@ -651,6 +1177,8 @@ footer{
 .contactBtn h3{
     font-size: 15px;
     font-weight: bold;
+    color: white;
+    padding-bottom: 7px;
 
 }
 
@@ -658,7 +1186,7 @@ footer{
 
 
 .footLogo{
-    height: 130px;
+    height: 150px;
     width:100%;
     /* border: 2px solid red; */
     background-color: #0c2b64;
@@ -668,17 +1196,20 @@ footer{
 }
 
 .footLogoSVG{
-    height: inherit;
-    width:20%;
+    height:150px;
+    width:50%;
     /* border:2px solid white; */
     display: flex;
     justify-content: center;
     align-items: start;
+   
 }
 
 .footLogoSVG svg{
     fill: white;
-    padding:5px;
+    height: 150px;
+    width: 300px;
+    padding: 10px;
 }
 
 .footLogoSVG svg:hover{
@@ -689,6 +1220,11 @@ footer{
     transition-delay: 0;
     transition-duration:0.5s;
 }
+
+
+
+
+
 
 
 
@@ -797,6 +1333,9 @@ footer{
     transition-delay: 0;
     transition-duration:0.5s;
 }
+
+
+
 
 
 
