@@ -39,6 +39,8 @@ class Assign2:
                  print(res)
                  
              i=i+1
+             
+             
 
 
 

@@ -215,6 +215,18 @@ class ListProg:
         self.newList.clear()
         
         print(self.newList2)
+        
+    
+    def nestedList(self):
+        
+        nList =[ 10, [20, 30, 40]]
+        
+        
+        print(nList[0])
+        
+        print(nList[1])
+        
+        print(nList[1][0])
                 
     
     
