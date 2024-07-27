@@ -12,6 +12,8 @@ class ListProg:
     def __init__(self):
         self.newList =[1,2,"saurabh",45.5, 8638869369, None, None]
         
+        self.newList2=None
+        
         
         
     def dispaly(self):
@@ -193,10 +195,26 @@ class ListProg:
         print(f"After Replace List in the list \n {self.newList}")
         
         
+    def copyFun(self):
         
+        newList2=self.newList
         
+        print(newList2)
         
-            
+    
+    def comparingFun(self):
+        
+        res = self.newList2 == self.newList 
+        
+        print(res)
+        
+    
+    
+    def clearFun(self):
+        
+        self.newList.clear()
+        
+        print(self.newList2)
                 
     
     
