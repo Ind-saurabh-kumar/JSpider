@@ -14,11 +14,14 @@ class Assign2:
     
     def oddFun(self):
         
+         print("Even Numbers are: ----")
+        
          i=0
          while i<len(listData):
              
              if listData[i]%2!=0:
-                 print(listData[i])
+                 res=listData[i]
+                 print(res)
                  
              i=i+1
              
@@ -26,11 +29,14 @@ class Assign2:
              
     def evenFun(self):
         
+         print("Odd Numbers are: ----")
+        
          i=0
          while i<len(listData):
              
              if listData[i]%2==0:
-                 print(listData[i])
+                 res=listData[i]
+                 print(res)
                  
              i=i+1
 

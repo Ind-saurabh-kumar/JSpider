@@ -128,16 +128,74 @@ class ListProg:
     
     def oddEle(self):
         
+        olist=[2,34,65,2,74,83,87,98]
+        
         for i in self.newList:
             if i%2!=0:
                 print(i)
                 
     def evenEle(self):
-        
+        olist=[2,34,65,2,74,83,87,98]
         for i in self.newList:
             if i%2==0:
                 print(i)
-                
+    
+    
+    
+    def mergeList(self):
+        
+        list2=[3,4,7,8,"saurabh", "Kumar"]
+        list3=[5,383,484,"shubham" "kumar"]
+        
+        list2.extend(list3)
+        print(list2)
+        
+    
+    def popFun(self):
+        
+        val=input("Enter the index which you want to pop \n")
+        
+        print(f"Before Poping elements in the list \n {self.newList}")
+        
+        self.newList.remove(val)
+        
+        
+        print(f"After Poping elements in the list \n {self.newList}")
+        
+    
+    def sortList(self):
+        
+        print(f"Before Sorting List in the list \n {self.newList}")
+        
+        self.newList.sort()
+        
+        
+        print(f"After Sorting List in the list \n {self.newList}")
+        
+        
+        
+    def sortString(self):
+        
+        strVal=["apple", "Mango", "Papaya", "carrot", "banana"]
+        
+        strVal.sort()
+        
+        print(strVal)
+    
+    
+    def muteList(self):
+        
+        print(f"Before Replace List in the list \n {self.newList}")
+        
+        self.newList[2]="Kumar"
+        
+        
+        print(f"After Replace List in the list \n {self.newList}")
+        
+        
+        
+        
+        
             
                 
     
@@ -166,6 +224,9 @@ l.printList()
 l.oddEle()
 
 l.evenEle()
+
+
+l.mergeList()
 
 try:
     l.posSlice(1, 5)
