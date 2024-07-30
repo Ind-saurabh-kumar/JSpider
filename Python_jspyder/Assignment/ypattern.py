@@ -5,26 +5,23 @@ Created on Mon Jul 29 11:21:28 2024
 @author: saura
 """
 
-
 class YPattern:
-    
     def yPatt(self):
         
-        n=10
+        n=9
         
         for i in range(n):
             
             for j in range(n):
                 
+                if (i==0 or j==n-1):
+                    print('*', end=' ')
                 
-                if j==i or j==(n-i+1):
-                    
-                    print("*", end=' ')
-                else:
-                    print(' ', end=' ')
-                    
+                
             print()
+        
+        
+        
 
-
-y=YPattern()
+y = YPattern()
 y.yPatt()

@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(242, 227, 207);
+}
+
+/* style code starts  */
+
+section{
+    height: 500px;
+    width: 55%;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+    background-color: rgb(248, 246, 245);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.left{
+    height: inherit;
+    width: 50%;
+    /* border: 2px solid blue; */
+    background-color: purple;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    
+}
+
+
+
+.right{
+    height: inherit;
+    width: 50%;
+    /* border: 2px solid blue; */
+}
+
+
+.res{
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+   
+}
+
+.res h3{
+   font-size: 25px;
+   color: rgb(166, 166, 176);
+
+
+}
+
+
+.lbody{
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid rgb(202, 84, 84); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgba(24, 19, 60, 0.42), rgb(128, 0, 128));
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: transparent;
+}
+
+.circle h1{
+    font-size: 75px;
+    color: white;
+}
+
+.circle h4{
+    font-size: 20px;
+    color: rgb(121, 116, 116);
+}
+
+
+
+.heading{
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid rgb(236, 6, 6); */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+}
+
+.heading{
+    font-size: 30px;
+    color:white;
+}
+
+.para{
+    width: 70%;
+    height: 70px;
+    /* border: 2px solid rgb(236, 6, 6); */
+    padding-bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.para p{
+    font-size: 22px;
+    color: rgb(184, 189, 194);
+   
+    text-align: center;
+}
+
+
+/* Right Box css starts */
+
+
+
+.right{
+    height: inherit;
+    width: 50%;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.rheading{
+    width: 90%;
+    height: 50px ;
+    /* border: 2px solid black; */
+    padding-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+
+
+}
+
+.rheading h3{
+    font-size: 30px;
+    color: black;
+}
+
+
+
+.rdiv{
+    width: 90%;
+    height: 300px ;
+    /* border: 2px solid black; */
+    padding-bottom: 20px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.list{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid green; */
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+
+}
+
+#list1{
+    background-color: rgba(203, 123, 176, 0.231);
+}
+
+#list1 h4{
+    color: red;
+}
+
+#list2{
+    background-color: rgba(191, 203, 123, 0.201);
+}
+#list2 h4{
+    color: rgb(232, 154, 20);
+}
+
+
+#list3{
+    background-color: rgba(193, 169, 185, 0.274);
+}
+#list3 h4{
+    color: rgb(19, 232, 108);
+}
+
+
+#list4{
+    background-color: rgba(184, 67, 223, 0.174);
+}
+#list4 h4{
+    color: rgb(221, 0, 255);
+}
+
+#list5{
+    background-color: rgba(203, 123, 176, 0.281);
+}
+
+.data1{
+
+    padding-left: 20px;
+
+}
+.data1 h4{
+    font-size: 20px;
+
+}
+
+.data2{
+
+    padding-right: 20px;
+
+}
+.data2 p{
+   font-size: 19px;
+}
+.rbtn{
+
+    width: 95%;
+    height: 50px ;
+    /* border: 2px solid black; */
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    
+
+}
+.rbtn button{
+    height: 50px;
+    width: 95%;
+    border-radius: 40px;
+    
+
+
+
+    font-size: 20px;
+    color: white;
+    background-color: rgb(72, 32, 32);
+}
+
+.rbtn button:hover{
+cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+

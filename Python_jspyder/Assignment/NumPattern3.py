@@ -1,15 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jul 29 11:34:28 2024
+Created on Mon Jul 29 20:50:52 2024
 
 @author: saura
 """
 
-
-
-class CharPrymid:
+class NumPrymid:
     
-    def charPry(self):
+    def numPry(self):
         
         n=10
         
@@ -20,13 +18,16 @@ class CharPrymid:
                 
             for k in range(2*i+1):
                 
-                if k==j:
+            
+                if i%2==0:
                     print('*', end=' ')
-                else:
-                    print(chr(65+k), end=' ')
+                
+                    
+                 
+            
             
             print()
             
 
-cp=CharPrymid()
-cp.charPry()
+np=NumPrymid()
+np.numPry()
