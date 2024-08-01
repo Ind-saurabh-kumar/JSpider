@@ -14,7 +14,7 @@ class StringPalindrome:
 
             print("String is Palindrome...")
         else:
-          print("String is not Palindrome...")
+            print("String is not Palindrome...")
 
 
 sp=StringPalindrome()

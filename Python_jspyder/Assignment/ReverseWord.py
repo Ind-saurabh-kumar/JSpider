@@ -1,26 +1,22 @@
 
 
 class ReverseWord:
-
     def wordRev(self):
+        sen = input("Enter the String...\n")
 
-        sen= input("Enter the String...\n")
-
-        revStr= ' '
-        cW = ""
+        revStr = ''
+        currWord = ''
 
         for i in sen:
-
-            if i!= ' ':
-                cW = cW +i
-
+            if i != ' ':
+                currWord = currWord + i
             else:
-                revStr = " "+cW +revStr
-                cW=' '
-        revStr = cW+ ' ' +revStr
-        print(revStr)
+                revStr = ' ' + currWord + revStr
+                currWord = ''
 
+        # Add the last word to the reversed string
+        revStr = currWord + revStr
+        print(revStr.strip())  # Strip any leading/trailing spaces
 
-rW=ReverseWord()
+rW = ReverseWord()
 rW.wordRev()
-
