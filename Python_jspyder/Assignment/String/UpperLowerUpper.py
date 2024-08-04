@@ -6,7 +6,7 @@ class UpperLowerLower:
 
         word = input("Enter the word \n")
 
-        for i in word:=
+        for i in word:
 
             ascii=ord(i)
             newWord=""
