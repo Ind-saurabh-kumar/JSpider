@@ -11,7 +11,7 @@ class FirstCharUpper:
 
         # Iterate through the string and capitalize as needed
         for i in range(length):
-            if i == 0 or (i > 0 and sen[i-1] == ' '):
+            if i == 0 or (i > 0 and sen[i - 1] == ' '):
                 asc = ord(sen[i])
                 if 97 <= asc <= 122:  # Check if it is a lowercase letter
                     newSen += chr(asc - 32)
