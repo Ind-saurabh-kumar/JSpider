@@ -1,5 +1,4 @@
 
-
 class LeapYear:
 
     def leapY(self):
@@ -10,7 +9,6 @@ class LeapYear:
 
         else:
             print(f"{year} is not Leap year.")
-
 
 ly=LeapYear()
 ly.leapY()
