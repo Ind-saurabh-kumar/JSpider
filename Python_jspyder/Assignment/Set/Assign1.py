@@ -36,6 +36,12 @@ print("******** Question 2 **************** ")
 bdc = B-C    # B diff C
 aubdc = A|bdc   # A union B diff C
 print(f" A union (B diff C) is ={aubdc}")
+print()
+
+
+
+
+
 
 
 
