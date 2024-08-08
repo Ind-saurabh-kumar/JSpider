@@ -11,7 +11,7 @@ class LinearSearch2:
         return -1
 
 
-arr=[1,2,3,9,45,6,7]9
+arr=[1,2,3,9,45,6,7]
 key=int(input("Enter the element \n"))
 l=LinearSearch2()
 res=l.linearSearch(arr, key)
