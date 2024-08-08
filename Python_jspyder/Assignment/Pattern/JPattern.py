@@ -1,6 +1,6 @@
 
 
-class JSpider:
+class JPattern:
 
     def jClassic(self):
 
@@ -32,7 +32,7 @@ class JSpider:
 
 
 
-j=JSpider()
+j=JPattern()
 j.jClassic()
 
 j.jPattern()
