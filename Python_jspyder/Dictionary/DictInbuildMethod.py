@@ -106,7 +106,6 @@ d.dpopItem()
 d.display()
 
 d.dclear()
-d.display()
 
 
 
