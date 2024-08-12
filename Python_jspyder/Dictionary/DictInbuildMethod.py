@@ -102,8 +102,13 @@ d.display()
 d.dictItems()
 d.display()
 
+d.dpopItem()
+d.display()
+
 d.dclear()
 d.display()
+
+
 
 
 
