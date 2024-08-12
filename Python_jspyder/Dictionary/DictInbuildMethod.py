@@ -36,7 +36,7 @@ class DictInbuildMethod:
     def dictFromKey(self):
         print("\n *********** Dict. from Key ***********");
 
-        dfkey=sampleDict.fromkeys();
+        dfkey=sampleDict.fromkeys("Python");
         print(dfkey);
 
 
@@ -82,5 +82,28 @@ d.display();
 
 d.dictPop()
 d.display()
+
+
+d.dectGet()
+d.display()
+
+d.dupdate()
+d.display()
+
+d.dectKeys()
+d.display()
+
+d.dictFromKey()
+d.display()
+
+d.dictValues()
+d.display()
+
+d.dictItems()
+d.display()
+
+d.dclear()
+d.display()
+
 
 
