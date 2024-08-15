@@ -77,35 +77,54 @@ d=DictInbuildMethod();
 
 d.display();
 
-d.dictCopy();
-d.display();
+# d.dictCopy();
+# d.display();
+#
+# d.dictPop()
+# d.display()
+#
+#
+# d.dectGet()
+# d.display()
+#
+# d.dupdate()
+# d.display()
+#
+# d.dectKeys()
+# d.display()
+#
+# d.dictFromKey()
+# d.display()
+#
+# d.dictValues()
+# d.display()
+#
+# d.dictItems()
+# d.display()
+#
+# d.dpopItem()
+# d.display()
+#
+# d.dclear()
 
-d.dictPop()
-d.display()
+r=sampleDict.pop(2)
+rev=""
+print(r)
+
+for i in r:
+    rev=i+rev;
+print(rev)
+
+print(sampleDict.clear())
+
+print(sampleDict.clear())
+
+print(sampleDict)
 
 
-d.dectGet()
-d.display()
 
-d.dupdate()
-d.display()
+print(sampleDict)
 
-d.dectKeys()
-d.display()
-
-d.dictFromKey()
-d.display()
-
-d.dictValues()
-d.display()
-
-d.dictItems()
-d.display()
-
-d.dpopItem()
-d.display()
-
-d.dclear()
 
 
 
