@@ -6,42 +6,29 @@ class Solution:
         orgArr=arr;
 
         if len(orgArr)>1:
-
             mid=len(orgArr)//2
             leftlist=orgArr[:mid]
             # print("first left", leftlist)
             rightlist=orgArr[mid:]
-
             # print("first right", rightlist)
-
-
             # print("left",leftlist)
             # print("right", rightlist)
-
             self.merge_sort(leftlist);
             self.merge_sort(rightlist)
-
             print("leftlist length", leftlist)
             print("length of right", rightlist)
-
             i=0
             j=0
             k=0
-
             while i<len(leftlist) and j<len(rightlist):
-
-
                 if leftlist[i] < rightlist[j]:
                     # print("************* left list ",i, len(leftlist))
                     # print("************ rightlist ",j, len(rightlist))
                     orgArr[k]=leftlist[i]
-
                     i+=1
-
                 else:
                     orgArr[k]=rightlist[j]
                     j+=1
-
                 k+=1
 
             # Remainaing element in left list
@@ -50,7 +37,6 @@ class Solution:
                 orgArr[k] = leftlist[i]
                 i+=1
                 k+=1
-
 
             # Remaining element in right list
             while j<len(rightlist):
