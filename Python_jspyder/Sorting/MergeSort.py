@@ -35,7 +35,7 @@ class Solution:
                     # print("************* left list ",i, len(leftlist))
                     # print("************ rightlist ",j, len(rightlist))
                     orgArr[k]=leftlist[i]
-                    # print(orgArr)
+
                     i+=1
 
                 else:
