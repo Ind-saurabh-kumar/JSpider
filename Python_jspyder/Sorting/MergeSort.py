@@ -5,7 +5,7 @@ class Solution:
     def merge_sort(self, arr):
         orgArr=arr;
 
-        if len(orgArr)>1:
+
             mid=len(orgArr)//2
             leftlist=orgArr[:mid]
             # print("first left", leftlist)
@@ -13,10 +13,10 @@ class Solution:
             # print("first right", rightlist)
             # print("left",leftlist)
             # print("right", rightlist)
-            self.merge_sort(leftlist);
+            self.merge_sort(leftlist)
             self.merge_sort(rightlist)
-            print("leftlist length", leftlist)
-            print("length of right", rightlist)
+            print("leftlist length \n", leftlist)
+            print("length of right \n", rightlist)
             i=0
             j=0
             k=0

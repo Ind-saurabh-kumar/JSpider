@@ -3,6 +3,7 @@ class SlectionSort:
     def sortAlgo(self):
 
         a=[19,9,2,8,20,1]
+        print(a)
 
 
         for i in range(len(a)):
@@ -15,6 +16,8 @@ class SlectionSort:
             a[min], a[i] = a[i], a[min]
 
             print(a)
+
+
 
 
 
