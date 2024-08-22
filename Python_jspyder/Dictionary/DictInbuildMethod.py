@@ -84,8 +84,8 @@ d.display();
 # d.display()
 #
 #
-# d.dectGet()
-# d.display()
+
+
 #
 # d.dupdate()
 # d.display()
@@ -107,23 +107,7 @@ d.display();
 #
 # d.dclear()
 
-r=sampleDict.pop(2)
-rev=""
-print(r)
-
-for i in r:
-    rev=i+rev;
-print(rev)
-
-print(sampleDict.clear())
-
-print(sampleDict.clear())
-
-print(sampleDict)
-
-
-
-print(sampleDict)
+print(d.dictGet())
 
 
 
