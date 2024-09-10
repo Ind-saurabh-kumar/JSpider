@@ -1,0 +1,135 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href={% static "CSS/style.css"%}>
+</head>
+<body>
+
+    <div class="section1">
+        <div class="secCont">
+
+            <div class="s1leftCont">
+                <div class="s1pimg">
+
+                    <div class="s1bigimg">
+
+                        <img src={%static "images/telephone.jpg"%} alt="">
+
+                    </div>
+
+                    <div class="s1smallimg">
+
+                        <div class="s1smimg1">
+                            <img src={%static "images/telephone1.jpg"%} alt="">
+                        </div>
+                        <div class="s1smimg1">
+                            <img src={%static "images/telephone2.jpg"%} alt="">
+                        </div>
+                        <div class="s1smimg1">
+                            <img src={%static "images/telephone3.jpg"%} alt="">
+                        </div>
+                        <div class="s1smimg1">
+                            <img src={%static "images/telephone4.jpg"%} alt="">
+                        </div>
+                        <div class="s1smimg1">
+                            <img src={%static "images/telephone5.jpg"%} alt="">
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+                <div class="s1btnCont">
+                    <div class="s1btnbox">
+                        <button class="s1cartbtn">Add Cart</button>
+                    </div>
+
+                    <div class="s1btnbox">
+                        <button class="s1buybtn">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="s1rightCont">
+
+                <div class="s1pname">
+
+                    <h3>{{data.name}}</h3><span>{{data.authorname}}</span>
+
+                </div>
+
+                <div class="s1pprice">
+
+                    <div class="newprice">
+                        <h4><strong>₹</strong>{{data.newprice}}</h4> 
+                    </div>
+                    
+
+
+                    {% if data.discount >= 0 %}
+                    <div class="pdiscount">
+                        <p>{{data.change}}</p>
+                        <h4>{{data.discount}}%</h4> 
+                    </div>
+                    {% else %}
+                    <div class="pincr">
+                        <p>{{data.change}}</p>
+                        <h4>{{data.incr}}%</h4> 
+                    </div>
+                    {% endif %}
+
+
+
+                    <div class="oldprice">
+                        <h4>₹{{data.oldprice}}</h4> 
+                    </div>
+
+                    
+
+                    
+
+                </div>
+
+                <div class="s1pdetails">
+
+                    <div class="s1pdesc">
+                        <h3>Product Details:</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, 
+                            ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur similique nam cum,
+                             magni labore vel et dignissimos facere nisi cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, commodi.</p>
+                    </div>
+
+                    <div class="s1pdesclist">
+                        <ul>
+                            <li>New version</li>
+                            <li>All Topics Coverd</li>
+                            <li>Data Structure also inside this book</li>
+                            <li>Including Django Framework</li>
+                            <li>Usefull for Data Science also</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+
+                    
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    
+
+
+    
+</body>
+</html>
