@@ -10,5 +10,5 @@ from django.shortcuts import render
 def signUp(request):
     print("****************************\n Studentis signdup successfully \n **************************************")
     
-    # return HttpResponse("Successfully")
+    HttpResponse(request,'#success')
     return render(request, 'signup.html')
