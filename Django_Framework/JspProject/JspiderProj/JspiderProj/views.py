@@ -11,7 +11,7 @@ def home(request):
     
     data.name="Traditional Telephone"
     data.authorname=""
-    data.newprice=50000
+    data.newprice=5000
     data.oldprice=50000
     
     data.change=""
@@ -29,3 +29,11 @@ def home(request):
     
     
     return render(request, 'index.html', {'data':data})
+
+
+
+
+
+def product(request):
+    
+    return render(request, 'product.html')

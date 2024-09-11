@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
-    <link rel="stylesheet" href={% static "CSS/style.css"%}>
+    <link rel="stylesheet" href={% static "CSS/style.css" %}>
 </head>
 <body>
 
@@ -59,34 +59,25 @@
 
                 <div class="s1pname">
 
-                    <h3>{{data.name}}</h3><span>{{data.authorname}}</span>
+                    <h3>Traditional Telephone</h3>
 
                 </div>
 
                 <div class="s1pprice">
 
                     <div class="newprice">
-                        <h4><strong>₹</strong>{{data.newprice}}</h4> 
+                        <h4><strong>₹</strong>5000</h4> 
                     </div>
-                    
 
 
-                    {% if data.discount >= 0 %}
                     <div class="pdiscount">
-                        <p>{{data.change}}</p>
-                        <h4>{{data.discount}}%</h4> 
+                        <p>discount</p>
+                        <h4>90%</h4> 
                     </div>
-                    {% else %}
-                    <div class="pincr">
-                        <p>{{data.change}}</p>
-                        <h4>{{data.incr}}%</h4> 
-                    </div>
-                    {% endif %}
-
 
 
                     <div class="oldprice">
-                        <h4>₹{{data.oldprice}}</h4> 
+                        <h4>₹50000</h4> 
                     </div>
 
                     
@@ -106,11 +97,13 @@
 
                     <div class="s1pdesclist">
                         <ul>
-                            <li>New version</li>
-                            <li>All Topics Coverd</li>
-                            <li>Data Structure also inside this book</li>
-                            <li>Including Django Framework</li>
-                            <li>Usefull for Data Science also</li>
+                            <li>Traditional old model</li>
+                            <li>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, nesciunt?
+                            </li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab velit earum enim voluptatem exercitationem quis.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quam debitis deserunt beatae itaque vel accusantium ipsa enim sed ea?</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis enim incidunt facilis temporibus ratione aut consequuntur dignissimos recusandae nemo quos!</li>
                         </ul>
                     </div>
                     
