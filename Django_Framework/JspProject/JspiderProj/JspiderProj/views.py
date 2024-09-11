@@ -23,11 +23,6 @@ def home(request):
     else:
         data.change="Increase by"
         data.incr=round(((data.newprice-data.oldprice)/data.newprice)*100)
-        
-    
-   
-    
-    
     return render(request, 'index.html', {'data':data})
 
 
