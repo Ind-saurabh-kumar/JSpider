@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+     background-color: aquamarine;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.bodyCont{
+    height: 100vh;
+    width: 100%;
+
+    background-color: aquamarine;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sucmsg{
+    height:55%;
+    width:50%;
+    background-color: rgba(37, 36, 36, 0.84);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap:50px;
+
+    box-shadow: rgba(227, 178, 15, 0.2) 0px 60px 40px -7px;
+}
+
+
+
+
+.successmsg h1{
+
+    font-size: 40px;
+    color: rgb(18, 246, 18);
+
+}
+
+.success{
+    height: 50px;
+    width: 50%;
+    border: 2px solid gold;
+    background-color: blueviolet;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.success a{
+    font-size: 70%;
+    text-decoration: none;
+    color:white;
+}
+
+.success a:hover{
+    font-size: 22px;
+}
+
+
+.success:hover{
+    box-shadow: 2px 0.7px 20px 5px gold;
+    cursor: pointer;
+}
+
+
+.failmsg h1{
+    font-size: 45px;
+    color: rgb(230, 8, 8);
+}

@@ -1,0 +1,26 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>success</title>
+
+    <link rel="stylesheet" href={% static "CSS/msg.css" %}>
+</head>
+<body>
+
+    <div class="bodyCont">
+        <div class="sucmsg">
+            <div class="failmsg">
+                <h1>Data Not Saved Try Again!!!!!!</h1>
+            </div>
+    
+            <div class="success">
+                <a href="{% url 'employee' %}">Click here to go Employee Page...</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

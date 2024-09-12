@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../static/CSS/p.css">
+
+</head>
+<body>
+
+    <section>
+        <div class="secCont">
+
+            <div class="formdata">
+
+                <h1>Employee Form</h1>
+            <form action="{% url 'employee' %}" method='POST'>
+                {% csrf_token %}
+                <div class="name">
+                    <label for="pid">Employee Id</label>
+                    <input type="text" id="pid" placeholder="Enter the Product Id here....." name='eid' >
+                </div>
+                <div class="userName">
+                    <label for="pname">Employee Name</label> 
+                    <input type="text" id="pname" placeholder="Enter the Product Name here....." name='ename'>
+                </div>
+                <div class="name">
+                    <label for="pprice">Employee Salary</label>
+                    <input type="text" id="pprice" placeholder="Enter the Product Price here....." name='esal'>
+                </div>
+                
+        
+                <div><button type="submit">Submit</button></div>
+            </form>
+        </div>
+        </div>
+    </section>
+    
+</body>
+</html>
