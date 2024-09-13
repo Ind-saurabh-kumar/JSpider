@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../static/CSS/p.css">
+
+</head>
+<body>
+
+    <section>
+        <div class="secCont">
+
+            <div class="formdata">
+
+                <h1>Product Form</h1>
+            <form action="#success" method='GET'>
+                
+               
+
+                <div id="success" name="signup" class="mcont">
+                    <p class="message">Data Saved Successfully..</p>
+                </div>
+                <div class="name">
+                    <label for="pid">Product Id</label>
+                    <input type="text" id="pid" placeholder="Enter the Product Id here....." required>
+                </div>
+                <div class="userName">
+                    <label for="pname">Product Name</label> 
+                    <input type="text" id="pname" placeholder="Enter the Product Name here....." required>
+                </div>
+                <div class="name">
+                    <label for="pprice">Product Price</label>
+                    <input type="text" id="pprice" placeholder="Enter the Product Price here....." required>
+                </div>
+                <div class="userName">
+                    <label for="pdesc">Product Details</label>
+                    <textarea type="Text" id="pdesc" placeholder="Enter the Product Details here....." required></textarea>
+                </div>
+        
+                <div><button type="submit">Submit</button></div>
+            </form>
+        </div>
+        </div>
+    </section>
+    
+</body>
+</html>

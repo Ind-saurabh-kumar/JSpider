@@ -41,19 +41,26 @@ def welcomePage(request):
     return render(request, 'welcome.html', {'subject':'Python'})
 
 # Employee page logic **************************************************************************
-def empPage(request):
-    if request.method == 'GET':
-        return render(request, 'emp.html')
 
+
+def empPage(request):
+    defaultPage= 'emp.html'
+    
     if request.method == 'POST':
-        eid = request.POST.get('eid')
-        ename = request.POST.get('ename')
-        esal = request.POST.get('esal')
+        eid = request.POST.get('fid')
+        ename = request.POST.get('fname')
+        esal = request.POST.get('fdept')
 
         if not eid or not ename or not esal:
-            return redirect('fail')
+            defaultPage='fail.html'
+        
         else:
-            return redirect('success')
+            defaultPage='success.html'
+        
+    
+    return render(request, defaultPage)
+    
+    
  
 def success(request):
     return render(request, 'success.html')

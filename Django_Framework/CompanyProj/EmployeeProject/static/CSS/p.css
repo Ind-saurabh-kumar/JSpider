@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+
+}
+
+h1{
+    font-size: 45px;
+    color:antiquewhite;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secCont{
+    height:85%;
+    width:450px;
+    background-color: rgba(65, 64, 63, 0.684);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap:10px;
+
+    box-shadow: rgba(227, 178, 15, 0.2) 0px 60px 40px -7px;
+}
+
+
+.formdata{
+    height: 90%;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+form{
+    height: 75%;
+    width: inherit;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+
+label{
+    margin-left:10px;
+    font-size: 20px;
+    color:rgb(246, 241, 235);
+}
+
+input{
+    border:none;
+    height: 30px;
+    width: 350px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    outline:2px solid gold;
+    color: rgb(114, 77, 8);
+    
+}
+
+input:hover{
+    box-shadow: 2px 0.7px 20px 5px gold;
+    
+}
+
+input::placeholder{
+    color: rgb(28, 24, 24);
+}
+
+textarea{
+    border:none;
+    height: 70px;
+    width: 350px;
+    font-size: 15px;
+    padding:5px 0px 0px 10px;
+    border-radius: 10px;
+    outline:2px solid gold;
+    color: rgb(114, 77, 8);
+    
+}
+
+textarea:hover{
+    box-shadow: 2px 0.7px 20px 5px gold;
+}
+
+textarea::placeholder{
+    color: rgb(28, 24, 24);
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(52, 25, 77);
+    border: 2px solid gold;
+    box-shadow: 2px 0.7px 20px 5px gold;
+
+}
+
+
+.message{
+    color: rgb(5, 244, 5);
+    display: none;
+    font-size: 20px;
+}
+
+#success:target .message{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

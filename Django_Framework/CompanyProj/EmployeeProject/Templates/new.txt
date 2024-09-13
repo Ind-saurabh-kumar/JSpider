@@ -1,0 +1,13 @@
+
+{% comment %} 
+                    {% if data.discount >= 0 %}
+                    <div class="pdiscount">
+                        <p>{{data.change}}</p>
+                        <h4>{{data.discount}}%</h4> 
+                    </div>
+                    {% else %}
+                    <div class="pincr">
+                        <p>{{data.change}}</p>
+                        <h4>{{data.incr}}%</h4> 
+                    </div>
+                    {% endif %} {% endcomment %}

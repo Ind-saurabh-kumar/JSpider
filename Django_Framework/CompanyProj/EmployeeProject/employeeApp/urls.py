@@ -1,5 +1,5 @@
 """
-URL configuration for JspiderProj project.
+URL configuration for EmployeeProject project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -16,21 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from . import views
 
-urlpatterns =[
+urlpatterns = [
     path('admin/', admin.site.urls),
-    path('product/', views.home, name='home'),
-    path('pro', views.product, name='product'),
-    
-    
-    path('welcome/', views.welcomePage, name='welcome'),
-    
-    
-    
-    path('home/', views.empPage, name='employee'),
-    path('fail/', views.fail, name='fail'),
-    path('success/', views.success, name='success'),
-    
-    
 ]
